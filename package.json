@@ -11,13 +11,18 @@
     "url": "git+https://github.com/shibin-cli/test-cov.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "shibin",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/shibin-cli/test-cov/issues"
   },
   "homepage": "https://github.com/shibin-cli/test-cov#readme",
   "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "@babel/preset-typescript": "^7.16.0",
+    "@types/jest": "^27.0.2",
+    "babel-jest": "^27.3.1",
     "jest": "^27.3.1"
   }
 }
